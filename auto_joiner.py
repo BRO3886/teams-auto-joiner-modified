@@ -194,6 +194,7 @@ def join_newest_meeting(teams):
                 continue
 
             for meeting in channel.meetings:
+                print(f"Joining meeting in team {team} & channel {channel}")
                 if meeting.started_at > meeting_to_join.started_at:
                     meeting_to_join = meeting
                     meeting_team = team
@@ -343,15 +344,23 @@ def main():
 
     print("\nWorking...")
 
-    while 1:
+    c = 100
+
+    while (c >0):
+        c-=1
         time.sleep(2)
+        print("checking for active meetings...")
         for team in teams:
             team.update_meetings()
 
         if join_newest_meeting(teams):
+            c=100
             for team in teams:
                 team.update_elem()
-
+        print("Will start checking for meetings in 1 minute.")
+        time.sleep(60)
+    
+    print("Has been checking for too long. Exiting...")
 
 if __name__ == "__main__":
     main()

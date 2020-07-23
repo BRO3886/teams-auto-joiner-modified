@@ -1,10 +1,13 @@
 
-# Teams-Auto-Joiner  
+# Teams-Auto-Joiner (Modified)
+
+### Original : [link](https://GitHub.com/TobiasPankner/Teams-Auto-Joiner)
+
 [![GitHub stars](https://img.shields.io/github/stars/TobiasPankner/Teams-Auto-Joiner.svg?style=social&label=Star)](https://GitHub.com/TobiasPankner/Teams-Auto-Joiner/stargazers/)    
 
 
 - [Prerequisites](#prerequisites)
--  [Configuration options](#configuration-options)
+- [Configuration options](#configuration-options)
 - [Run the script](#run-the-script)  
 
 Python script to automatically join Microsoft Teams meetings.  
