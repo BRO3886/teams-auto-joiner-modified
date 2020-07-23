@@ -1,11 +1,8 @@
 
 # Teams-Auto-Joiner (Modified)
 
-### Original : [link](https://GitHub.com/TobiasPankner/Teams-Auto-Joiner)
-
-[![GitHub stars](https://img.shields.io/github/stars/TobiasPankner/Teams-Auto-Joiner.svg?style=social&label=Star)](https://GitHub.com/TobiasPankner/Teams-Auto-Joiner/stargazers/)    
-
-
+### Original Repo by [Tobias Panker](https://GitHub.com/TobiasPankner) : [link](https://GitHub.com/TobiasPankner/Teams-Auto-Joiner)
+  
 - [Prerequisites](#prerequisites)
 - [Configuration options](#configuration-options)
 - [Run the script](#run-the-script)  
