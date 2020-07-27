@@ -264,6 +264,7 @@ def main():
     global browser, config
 
     chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--mute-audio")
     chrome_options.add_argument('--ignore-certificate-errors')
     chrome_options.add_argument('--ignore-ssl-errors')
     chrome_options.add_argument("--use-fake-ui-for-media-stream")
