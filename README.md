@@ -5,7 +5,15 @@
   
 - [Prerequisites](#prerequisites)
 - [Configuration options](#configuration-options)
-- [Run the script](#run-the-script)  
+- [Run the script](#run-the-script)
+
+* Note: For configuring the batch file
+
+```
+@echo off
+cmd /k "cd /d<PATH TO THE SCRIPT FOLDER>\Teams-Auto-Joiner\env\Scripts & activate & cd /d   <PATH TO THE SCRIPT FOLDER>\Teams-Auto-Joiner & python auto_joiner.py"
+```
+
 
 Python script to automatically join Microsoft Teams meetings.  
 Automatically turns off your microphone and camera before joining. Automatic login and blacklist can be set in the config file.  
