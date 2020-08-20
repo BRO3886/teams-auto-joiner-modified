@@ -1,0 +1,9 @@
+{
+  "email": "your email",
+  "password": "your password",
+  "start_automatically": true,
+  "random_delay": false,
+  "auto_leave_after_min": 50,
+  "blacklist": [
+  ]
+}
